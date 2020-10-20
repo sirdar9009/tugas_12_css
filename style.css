@@ -1,0 +1,58 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.card{
+    background-image: radial-gradient(circle at top left, skyblue, white);
+    margin: 0;
+    padding: 10px;
+    box-shadow: gray 0px 2px 2px 2px;
+}
+
+.slider{
+    width: 100%;
+}
+
+.slider-img{
+    max-width: 100%;
+    max-height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: table-cell;
+}
+
+.image{
+    float: left;
+    padding: 15px 15px 15px 0px;
+    width: 200px;
+    height: 200px;
+}
+
+.p-text{
+    text-align: justify;
+    columns: 4;
+    column-rule: solid 2px;
+}
+
+.footer{
+    text-align: center;
+    padding-bottom: 10px;
+    background-color: black;
+    color: white;
+}
